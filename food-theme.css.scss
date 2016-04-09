@@ -785,6 +785,20 @@ header {
     background-position: 0 0;
 }
 
+.ie .navbar-nav li a span.nav-arrow,
+.ie .navbar-nav li a:hover span.nav-arrow,
+.ie .navbar-nav li a:focus span.nav-arrow {
+	display: none; /* Hide nav arrows for < IE9 */
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.navbar-nav li a span.nav-arrow,
+	.navbar-nav li a:hover span.nav-arrow,
+	.navbar-nav li a:focus span.nav-arrow {
+		display: none; /* Hide nav arrows for < IE11 */
+	}
+}
+
 .navbar-nav li a span.sub-arrow {
 	display: none;
 }
