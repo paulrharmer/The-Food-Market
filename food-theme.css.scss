@@ -4953,6 +4953,16 @@ span.hidden-md {
 	#prod-image {
    	margin-top: 15px;
 	}
+	#prod-image img {
+		margin: 0 auto;
+	}
+	.product-page .thumbnail .thumbnail {
+		max-width: 450px;
+	}
+	.zoomPad {
+		float: none !important;
+		margin: 0 auto !important;
+	}
 	.pre-footer-inner div {
 		padding: 0;
 	}
@@ -5494,6 +5504,16 @@ span.hidden-md {
 	}
 	.sort-by .small {
 		display: block;
+	}
+	#prod-image img {
+		margin: 0;
+	}
+	.product-page .thumbnail .thumbnail {
+		max-width: none;
+	}
+	.zoomPad {
+		float: left !important;
+		margin: 0 !important;
 	}
 }
 
